@@ -1,0 +1,101 @@
+.banner {
+  min-height: 100vh;
+  background: url(../../../Assets/Images/banner1.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: animate 10s linear infinite;
+  font-family: "Nunito", sans-serif;
+}
+
+.banner form {
+  margin-top: 7rem;
+  background: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  border: 0.1rem solid rgba(0, 0, 0, 0.2);
+  width: 40rem;
+  padding: 1.5rem;
+}
+.banner form h3 {
+  text-align: center;
+  color: #333;
+  font-size: 2rem;
+  font-weight: 900;
+}
+.banner form .buttons-container {
+  display: flex;
+  gap: 1.5rem;
+}
+.banner form .buttons-container button {
+  flex: 1;
+  border: none;
+  background-color: #f9edeb;
+  color: #ff5a3c;
+  border-radius: 5px;
+  padding: 3px 0;
+  font-size: 17px;
+  transition: all 0.5s;
+}
+.banner form .buttons-container button:hover {
+  background-color: #ff5a3c;
+  color: white;
+}
+
+.banner form .inputBox {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.banner form .inputBox input,
+.banner form .inputBox select {
+  flex: 1 1 15rem;
+  border: 0.1rem solid #333;
+  box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+  font-size: 0.8rem;
+  padding: 0.5rem 1rem;
+  text-transform: none;
+}
+.form-submit-button {
+  background-color: #f9edeb;
+  color: #ff5a3c;
+  border-radius: 5px;
+  padding: 3px 0;
+  font-size: 17px;
+  transition: all 0.5s;
+  border: none;
+  width: 100%;
+  margin-top: 20px;
+  text-transform: capitalize;
+}
+.form-submit-button:hover {
+  background-color: #ff5a3c;
+  color: white;
+}
+
+@keyframes animate {
+  0% {
+    background: url(../../../Assets/Images/banner1.png) no-repeat;
+  }
+  50% {
+    background: url(../../../Assets/Images/banner1.png) no-repeat;
+  }
+  55% {
+    background: url(../../../Assets/Images/banner3.png) no-repeat;
+  }
+  100% {
+    background: url(../../../Assets/Images/banner3.png) no-repeat;
+  }
+}
+
+@media (max-width: 600px) {
+  .banner form .inputBox input,
+  .banner form .inputBox select {
+    flex: 1;
+  }
+}

@@ -31,10 +31,7 @@ const Header = () => {
               </NavLink>
             </Nav>
             <Nav>
-              <Nav.Link to="#deets">More deets</Nav.Link>
-              <Nav.Link eventKey={2} to="#memes">
-                Dank memes
-              </Nav.Link>
+              <button className="login_btn">Login</button>
             </Nav>
           </Navbar.Collapse>
         </Container>

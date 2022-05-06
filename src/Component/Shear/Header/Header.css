@@ -32,3 +32,12 @@
 .link.active {
   color: #ff5a3c;
 }
+.login_btn {
+  background-color: #f9edeb;
+  color: #ff5a3c;
+  font-size: 18px;
+  padding: 7px 30px;
+  font-weight: bold;
+  border-radius: 50px;
+  border: none;
+}
