@@ -1,0 +1,20 @@
+[
+  {
+    "title": "buying home",
+    "img": "https://i.ibb.co/8nk4W9p/s-1.png",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam distinctio ipsa ab cum error quas fuga ad? Perspiciatis, autem officiis?",
+    "_id": 1
+  },
+  {
+    "title": "buying home",
+    "img": "https://i.ibb.co/8nk4W9p/s-1.png",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam distinctio ipsa ab cum error quas fuga ad? Perspiciatis, autem officiis?",
+    "_id": 2
+  },
+  {
+    "title": "buying home",
+    "img": "https://i.ibb.co/8nk4W9p/s-1.png",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam distinctio ipsa ab cum error quas fuga ad? Perspiciatis, autem officiis?",
+    "_id": 3
+  }
+]

@@ -1,5 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 .banner {
   min-height: 100vh;
+  padding: 20px 0;
   background: url(../../../Assets/Images/banner1.png) no-repeat;
   background-size: cover;
   background-position: center;
@@ -8,7 +10,7 @@
   align-items: center;
   justify-content: center;
   animation: animate 10s linear infinite;
-  font-family: "Nunito", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .banner form {
@@ -23,8 +25,9 @@
 .banner form h3 {
   text-align: center;
   color: #333;
-  font-size: 2rem;
-  font-weight: 900;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  font-weight: 600;
 }
 .banner form .buttons-container {
   display: flex;

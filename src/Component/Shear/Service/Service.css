@@ -1,0 +1,36 @@
+.box {
+  flex: 1 1 30rem;
+  border-radius: 0.5rem;
+  background: #fff;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  border: 0.1rem solid rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding: 1rem;
+}
+
+.box h3 {
+  font-size: 1.5rem;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.box p {
+  font-size: 0.9rem;
+  color: #666;
+
+  line-height: 1.7;
+}
+.services-btn {
+  background-color: #f9edeb;
+  color: #ff5a3c;
+  font-weight: 500;
+  padding: 5px 20px;
+  border: none;
+  border-radius: 5px;
+  transition: all 0.5s;
+}
+.services-btn:hover {
+  background-color: #ff5a3c;
+  color: white;
+}
