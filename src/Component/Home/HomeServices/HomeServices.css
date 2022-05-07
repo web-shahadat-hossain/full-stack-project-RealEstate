@@ -1,12 +1,12 @@
 .services-container {
   font-family: "Roboto", sans-serif;
 }
-.services-container h2 {
+h2 {
   text-align: center;
   padding-bottom: 20px;
   font-weight: 600;
 }
-.services-container h2 span {
+h2 span {
   background-color: #f9edeb;
   color: #ff5a3c;
   padding: 5px 15px;

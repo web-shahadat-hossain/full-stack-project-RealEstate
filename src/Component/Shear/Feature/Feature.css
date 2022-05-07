@@ -1,0 +1,149 @@
+.featured .box-container .box {
+  border: 0.1rem solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  padding: 0;
+  background: #fff;
+}
+
+.featured .box-container .box .image-container {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.featured .box-container .box .image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.2s linear;
+}
+
+.featured .box-container .box:hover .image-container img {
+  transform: scale(1.1);
+}
+
+.featured .box-container .box .image-container .info {
+  position: absolute;
+  top: 0.5rem;
+  left: 0;
+  display: flex;
+}
+
+.featured .box-container .box .image-container .info h3 {
+  font-weight: 500;
+  font-size: 0.8rem;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 0.5rem;
+  padding: 0.4rem 0.9rem;
+  margin-left: 0.5rem;
+}
+
+.featured .box-container .box .image-container .icons {
+  position: absolute;
+  bottom: 0.5rem;
+  right: 0;
+  display: flex;
+}
+
+.featured .box-container .box .image-container .icons a {
+  text-decoration: none;
+}
+
+.featured .box-container .box .image-container .icons a h3 {
+  font-weight: 600;
+  padding-left: 0.5rem;
+  color: #fff;
+  font-size: 0.9rem;
+  padding: 0.3rem 0.5rem;
+  border-radius: 0.5rem;
+  background: rgba(0, 0, 0, 0.3);
+  margin-right: 0.5rem;
+  text-decoration: none;
+}
+
+.featured .box-container .box .image-container .icons h3:hover {
+  background-color: #ff5a3c;
+}
+
+.featured .box-container .box .content {
+  padding: 1rem;
+}
+
+.featured .box-container .box .content .price {
+  display: flex;
+  align-items: center;
+}
+
+.featured .box-container .box .content .price h3 {
+  color: #ff5a3c;
+  font-size: 1.2rem;
+  margin-right: auto;
+}
+
+.featured .box-container .box .content .price button {
+  color: #666;
+  font-size: 1rem;
+  margin-right: 0.5rem;
+  border-radius: 0.5rem;
+  height: 2rem;
+  width: 2rem;
+  line-height: 1rem;
+  text-align: center;
+  border: none;
+  background: #f7f7f7;
+}
+
+.featured .box-container .box .content .price button :hover {
+  color: #ff5a3c;
+}
+
+.featured .box-container .box .content .location {
+  padding: 0.5rem 0;
+  text-align: left;
+}
+
+.featured .box-container .box .content .location h3 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.featured .box-container .box .content .location p {
+  font-size: 0.9rem;
+  color: #666;
+  line-height: 1;
+}
+
+.featured .box-container .box .content .details {
+  padding: 0.5rem 0;
+  display: flex;
+}
+
+.featured .box-container .box .content .details h4 {
+  flex: 1;
+  padding: 0.5rem;
+  border: 0.1rem solid rgba(0, 0, 0, 0.1);
+  color: #999;
+  font-size: 0.8rem;
+}
+
+.featured .box-container .box .content .buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.featured .box-container .box .content .buttons .buttons-container {
+  flex: 1;
+  font-size: 1rem;
+  border: none;
+  background-color: #f9edeb;
+  padding: 5px 10px;
+  color: #ff5a3c;
+  border-radius: 10px;
+}
+.featured .box-container .box .content .buttons .buttons-container:hover {
+  color: white;
+  background-color: #ff5a3c;
+}
